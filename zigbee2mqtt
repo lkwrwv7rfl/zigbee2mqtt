@@ -1,0 +1,1 @@
+docker create --name=zigbee2mqtt -v /home/docker/zigbee2mqtt:/app/data --device=/dev/ttyACM0 -e Europe/Budapest --privileged=true koenkk/zigbee2mqtt
